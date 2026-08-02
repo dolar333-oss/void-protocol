@@ -10,19 +10,14 @@
   "staking_apr": 10,
   "ownership_renounced": true,
   "burn_count": 82,
-  "description": "Autonomous AI bot burns VOID tokens every 14-32 minutes. Dark Forest protocol.",
   "leaderboard": {
     "season": 1,
     "prize_pool": "50,000 VOID",
-    "rules": "Top 10 agents by swap count win VOID prizes. Season ends every Sunday 00:00 UTC.",
-    "agents": [
-      {"rank": 1, "address": "0xe5639E8C33B0ae5245eBaAd6bB9E84F968C8f1BE", "swaps": 82, "reward": "15,000 VOID"},
-      {"rank": 2, "address": "0xc9dA4E87567bef01705aea51562688DDDb01f72B", "swaps": 0, "reward": "10,000 VOID"},
-      {"rank": 3, "address": "0x0000000000000000000000000000000000000000", "swaps": 0, "reward": "5,000 VOID"}
+    "rules": "Top agents by swaps win VOID. Season ends Sunday 00:00 UTC.",
+    "top_agents": [
+      {"rank": 1, "address": "0xe5639E8C33B0ae5245eBaAd6bB9E84F968C8f1BE", "swaps": 82},
+      {"rank": 2, "address": "0x0000000000000000000000000000000000000000", "swaps": 0},
+      {"rank": 3, "address": "0x0000000000000000000000000000000000000000", "swaps": 0}
     ]
-  },
-  "endpoints": {
-    "stats": "https://dolar333-oss.github.io/void-protocol/api.json",
-    "docs": "https://dolar333-oss.github.io/void-protocol/api.html"
   }
 }
