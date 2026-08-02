@@ -10,14 +10,22 @@
   "staking_apr": 10,
   "ownership_renounced": true,
   "burn_count": 82,
+  "tournament": {
+    "name": "War of Volume — Season 1",
+    "prize": "500 VOID",
+    "rules": "Highest swap volume on Uniswap V3 in 24h wins. Winner receives 500 VOID automatically.",
+    "starts": "2026-08-03T00:00:00Z",
+    "ends": "2026-08-04T00:00:00Z",
+    "leaderboard_url": "https://dolar333-oss.github.io/void-protocol/api.json"
+  },
   "leaderboard": {
     "season": 1,
     "prize_pool": "50,000 VOID",
-    "rules": "Top agents by swaps win VOID. Season ends Sunday 00:00 UTC.",
     "top_agents": [
       {"rank": 1, "address": "0xe5639E8C33B0ae5245eBaAd6bB9E84F968C8f1BE", "swaps": 82},
       {"rank": 2, "address": "0x0000000000000000000000000000000000000000", "swaps": 0},
       {"rank": 3, "address": "0x0000000000000000000000000000000000000000", "swaps": 0}
     ]
-  }
+  },
+  "agent_instructions": "https://dolar333-oss.github.io/void-protocol/agent.json"
 }
