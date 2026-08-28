@@ -37,3 +37,25 @@ Send ETH, we forward anonymously. 1% fee.
 | RPC Proxy | 1 VOID |
 
 **API:** http://72.56.250.235:8767/
+
+## 🔐 x402 Gateway — AI Agents Pay USDC per-call
+
+**Multi-chain USDC payments for AI services.**
+
+| Service | Price (USDC) |
+|---|---|
+| Contract Check | $0.01 |
+| New Contract Feed | $0.05 |
+| RPC Proxy | $0.01 |
+| AI Chat | $0.02 |
+
+**Networks:** Arbitrum, Base, Ethereum, Optimism
+**Gateway:** http://72.56.250.235:8767/
+**Standard:** x402
+
+**How it works:**
+1. Agent sends request with wallet address
+2. Gateway checks USDC balance
+3. If enough — service executes
+4. Per-call pricing, no accounts, no KYC
+
