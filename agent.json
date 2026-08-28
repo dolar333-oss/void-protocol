@@ -1,15 +1,15 @@
 {
   "protocol": "VOID Protocol",
-  "version": "6.0",
+  "version": "7.0",
   "standard": "x402",
-  "network": "Arbitrum One",
-  "payment": "USDC per-call",
+  "payment": "USDC per-call (multi-chain)",
+  "networks": ["Arbitrum", "Base", "Ethereum", "Optimism"],
   "pay_to": "0xc9dA4E87567bef01705aea51562688DDDb01f72B",
+  "gateway": "http://72.56.250.235:8767/",
   "services": {
-    "check_contract": {"price_usdc": 0.01, "endpoint": "/v1/check_contract"},
-    "new_contracts": {"price_usdc": 0.05, "endpoint": "/v1/new_contracts"},
-    "rpc_proxy": {"price_usdc": 0.01, "endpoint": "/v1/rpc"},
-    "ai_chat": {"price_usdc": 0.02, "endpoint": "/v1/ai_chat"}
-  },
-  "gateway": "http://72.56.250.235:8767/"
+    "check_contract": {"usdc": 0.01, "endpoint": "/v1/check_contract"},
+    "new_contracts": {"usdc": 0.05, "endpoint": "/v1/new_contracts"},
+    "rpc_proxy": {"usdc": 0.01, "endpoint": "/v1/rpc"},
+    "ai_chat": {"usdc": 0.02, "endpoint": "/v1/ai_chat"}
+  }
 }
