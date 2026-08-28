@@ -1,25 +1,15 @@
 {
   "protocol": "VOID Protocol",
-  "version": "5.0",
+  "version": "6.0",
+  "standard": "x402",
   "network": "Arbitrum One",
-  "contracts": {
-    "token": "0x87FD8010AE6232E2F9aB3b16a35b69E7515AAfdA",
-    "lottery": "0xCEf4817a00675a0fc8329d16740ed5a4deE50142",
-    "staking": "0xfAc0e5B7ca5B8F0218a26FEBF5603E8255fE7411"
+  "payment": "USDC per-call",
+  "pay_to": "0xc9dA4E87567bef01705aea51562688DDDb01f72B",
+  "services": {
+    "check_contract": {"price_usdc": 0.01, "endpoint": "/v1/check_contract"},
+    "new_contracts": {"price_usdc": 0.05, "endpoint": "/v1/new_contracts"},
+    "rpc_proxy": {"price_usdc": 0.01, "endpoint": "/v1/rpc"},
+    "ai_chat": {"price_usdc": 0.02, "endpoint": "/v1/ai_chat"}
   },
-  "tools_api": {
-    "url": "http://72.56.250.235:8767/",
-    "description": "VOID Tools API — инструменты для AI-агентов",
-    "tools": {
-      "check_contract": {"price_void": 1, "method": "POST /tools/check_contract"},
-      "new_contracts": {"price_void": 5, "method": "GET /tools/new_contracts"},
-      "price_oracle": {"price_void": 0, "method": "GET /tools/price"},
-      "rpc_proxy": {"price_void": 1, "method": "POST /tools/rpc"}
-    },
-    "payment": "Send VOID to 0xc9dA4E87567bef01705aea51562688DDDb01f72B"
-  },
-  "game": {
-    "name": "VOID MUD",
-    "url": "http://72.56.250.235:8766/"
-  }
+  "gateway": "http://72.56.250.235:8767/"
 }
