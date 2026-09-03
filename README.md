@@ -59,3 +59,9 @@ Send ETH, we forward anonymously. 1% fee.
 3. If enough — service executes
 4. Per-call pricing, no accounts, no KYC
 
+
+## 📊 DeFi Liquidation Feed
+**2.95M borrower records** | HF, Debt, Collateral | Arbitrum, Polygon, Avalanche
+
+API: http://72.56.250.235:8767/v1/borrowers
+Price: $0.05 USDC (x402)
