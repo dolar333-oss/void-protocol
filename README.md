@@ -72,3 +72,9 @@ Price: $0.05 USDC (x402)
 Networks: Arbitrum, Polygon, Avalanche
 API: http://72.56.250.235:8767/v1/borrowers
 Price: $0.05 USDC per query
+
+## 📊 DeFi Borrower Data API
+**2.95M records** — HF, Debt, Collateral
+Networks: Arbitrum, Polygon, Avalanche
+API: http://72.56.250.235:8767/v1/borrowers
+Price: $0.05 USDC per query
