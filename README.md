@@ -65,3 +65,10 @@ Send ETH, we forward anonymously. 1% fee.
 
 API: http://72.56.250.235:8767/v1/borrowers
 Price: $0.05 USDC (x402)
+
+## 📊 DeFi Borrower Database
+**2.95M records** — Health Factors, Debts, Collateral
+
+Networks: Arbitrum, Polygon, Avalanche
+API: http://72.56.250.235:8767/v1/borrowers
+Price: $0.05 USDC per query
